@@ -13,7 +13,7 @@ apt install gobuster
 
 #### **burpsuit**
 
-##### **Proxy**
+- **Proxy**
 
 - proxy -> intercept -> Intercept On
 
@@ -26,4 +26,5 @@ apt install gobuster
   - [Cookie Manager](https://addons.mozilla.org/en-US/firefox/addon/a-cookie-manager/)
   
 #### **Nmap**
+
 
