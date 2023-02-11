@@ -10,8 +10,11 @@ navbar:
     - text: "pentest"
       href: pentest.html
       menu:
-      - text: "webhacking"
-        href: webhacking.html
+      - text: "Web Hacking"
+        href: webhacking.html 
+        menu:
+        - text: "Tools"
+        - href: web_tools.html
   right:
     - icon: fa-question fa-lg
       href: https://example.com

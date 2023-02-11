@@ -3,21 +3,5 @@ title: "Web Hacking"
 output: html_document
 ---
 
-## Tools
-#### **gobuster**
+## [Tools](web_tools.html)
 
-- Install
-```r 
-apt install gobuster
-```
-
-#### **burpsuit**
-- proxy -> intercept -> Intercept On
-
-- change IP/port: proxy -> options -> Interface: ``127.0.0.1:8080``
-
-- [Burp certificate](http://burp) (The Proxy must be on) 
-
-- pluguins: 
-  - [Fox Proxy](/https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
-  - [Cookie Manager](https://addons.mozilla.org/en-US/firefox/addon/a-cookie-manager/)

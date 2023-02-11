@@ -258,8 +258,14 @@ $(document).ready(function () {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="webhacking.html">webhacking</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Web Hacking</a>
+      <ul class="dropdown-menu" role="menu">
+        <li class="dropdown-header">Tools</li>
+        <li>
+          <a href="web_tools.html"></a>
+        </li>
+      </ul>
     </li>
   </ul>
 </li>
@@ -305,33 +311,7 @@ $(document).ready(function () {
 
 
 <div id="tools" class="section level2">
-<h2>Tools</h2>
-<div id="gobuster" class="section level4">
-<h4><strong>gobuster</strong></h4>
-<ul>
-<li>Install</li>
-</ul>
-<pre class="r"><code>apt install gobuster</code></pre>
-</div>
-<div id="burpsuit" class="section level4">
-<h4><strong>burpsuit</strong></h4>
-<ul>
-<li><p>proxy -&gt; intercept -&gt; Intercept On</p></li>
-<li><p>change IP/port: proxy -&gt; options -&gt; Interface:
-<code>127.0.0.1:8080</code></p></li>
-<li><p><a href="http://burp">Burp certificate</a> (The Proxy must be
-on)</p></li>
-<li><p>pluguins:</p>
-<ul>
-<li><a
-href="/https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">Fox
-Proxy</a></li>
-<li><a
-href="https://addons.mozilla.org/en-US/firefox/addon/a-cookie-manager/">Cookie
-Manager</a></li>
-</ul></li>
-</ul>
-</div>
+<h2><a href="web_tools.html">Tools</a></h2>
 </div>
 
 
