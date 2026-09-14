@@ -196,10 +196,16 @@ footer p { font-family: 'JetBrains Mono', monospace; font-size: 12.5px; color: v
         <div class="prose">
             <p>Reproducible analysis of real vulnerabilities: root cause, proof of concept, and practical guidance for detection and mitigation. Focused on web, mobile, and AI systems.</p>
         </div>
-        <div class="research-empty">
-            <div class="mono">// first writeups in progress</div>
-            <p>New analysis is published here as it's completed. Check back soon, or follow along on the links below.</p>
-        </div>
+
+        <a href="research/cve-2026-88028-laravel-mongodb-query-operator-injection.html" class="post">
+            <div class="post-meta">
+                <span>2026-09-14</span>
+                <span>Web · NoSQL Injection</span>
+                <span>Independent analysis</span>
+            </div>
+            <div class="post-title">CVE-2026-88028 / CVE-2026-88027: Query-Operator Injection in Laravel MongoDB Relation Identifiers</div>
+            <div class="post-desc">Root cause analysis and proof of concept for unauthorized document disclosure via query-operator injection in <code style="font-size:13px;background:rgba(255,77,157,0.1);color:#ff4d9d;padding:1px 5px;border-radius:3px;">mongodb/laravel-mongodb &lt; 5.11.0</code>. CVSS 7.1 HIGH · CWE-943.</div>
+        </a>
     </div>
 </section>
 
